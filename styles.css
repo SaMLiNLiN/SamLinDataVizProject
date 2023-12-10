@@ -1,0 +1,66 @@
+.center_plot {
+    margin: auto;
+    text-align: center;
+}
+
+.section {
+    text-align: center;
+}
+
+body {
+    background-color: #00000013;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+} 
+
+.flex-item {
+    width: 50%;
+} 
+
+.flex-child:first-child {
+    margin-right: 10px;
+} 
+
+#myButton {
+    position: relative;
+    Left: 370px;
+    bottom: 100px;
+  }
+
+#q1{
+    border: 3px solid #0072bc;
+    padding: 5px
+}
+
+#q2{
+    border: 3px solid #0072bc;
+    padding: 5px
+}
+
+#q3{
+    border: 3px solid #0072bc;
+    padding: 5px
+}
+
+h2 {
+    font-size: 30px;
+}
+  
+  
+  
+  
+  

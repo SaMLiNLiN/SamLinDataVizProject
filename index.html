@@ -1,0 +1,144 @@
+
+<html>  
+<head>  
+<script type="text/javascript" src="script.js">
+    </script>  
+<link rel="stylesheet" href="styles.css">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+</head>
+<body onload=assignment6()> 
+<div>
+<h1>NBA SMALL BALL ERA (Golden State Warriors)</h1>
+<p>
+    The National Basketball Association (NBA) is a professional
+    basketball league that was founded in the United States in 1949.
+    It consists of 82 games in the regular season, and 
+    playoff series depending on how far each team gets. 
+    There has been different eras in the history of the NBA. 
+    However, we will be focusing on the transition from the 
+    Transitional Era (1955 - 2013) to the Modern Era of the NBA (since 2013).
+    We will be specifically focusing on the small ball playing style adopted by 
+    the Golden State Warriors (GSW), which started in approximately 2010-2011 
+    season until around 2019-2020 season. During this period of time, it is evident
+     that there was a change in playing time of each position, the salaries of 
+    each player, and the number of Champions each team won to show the effectiveness
+    of the adoption of the small ball style of basketball of the GSW.
+</p>
+
+<P> EXTRA INFO: Shortest to tallest Position: PG, SG, SF, PF, C </P>
+
+
+<br>
+<div class = "flex-container">
+    <div class = "flex-child plot1">
+        <div id="q1">
+            <br>
+            <div id="q1_plot">
+                <svg></svg>
+            </div>
+            <p style="border: 3px solid gold; padding: 10px;"> 
+                NOTE: hover over the bars to see exact avg playing time 
+                <br> <br>
+                In this bar chart, we can see that in comparison to before the small
+                ball era (2010-2011), the average playing time of both the Point guards
+                and Small Forwards, in the team Golden State Warriors, has increased by approximately 
+                8 mins during the beginning of the Small Ball Era (2014- 2015). 
+                <br> <br>
+                However, something to note here is that the average playing time of a shooting guard 
+                has decreased. This is due to the fact that the roster for this season contains a lot
+                more shooting guards in the team (4 in total out of 15), therefore, when averaging the playing time
+                it turns out to be lower as some shooting guards has less avg playing time. That being
+                said, if we were to only look at Klay Thompson (the main SG for this team), he actually played 
+                an avg of 31.9 mins, which is the second highest (just a bit under the star player / point guard: Stephen Curry).
+            </p>
+        </div>  
+    </div>
+
+    <div class = "flex-child plot2">
+            <div id="q2">
+                <br>
+                <div id = "title" class="center_plot">
+                </div>
+                <div id="q2_plot">
+                </div>
+                <button id="myButton">Table view</button>
+                <div id = "index" class="center_plot"></div>
+                <div> 
+                    <p style="border: 3px solid gold; padding: 10px;"> 
+                        NOTE: click the button for more info <br><br>
+                         In these node link charts, we can see that the top three paid 
+                         players are: Stephen Curry, Klay Thompson, and Andrew Wiggins as their 
+                         links are the four most thickest edges. (check table view).
+                         <br> <br>
+                         As illustrated, the highest paying positions are PG and two SFs, 
+                         which shows supports the idea showed in the bar chart to 
+                         the right. However, something to note here is that Klay Thompson has switched 
+                         from being a SG to a SF, but this doesn't really affect his "position" on the 
+                         court. To clarify, GSW often go with a lineup with 2 SFs(for example, have Thompson 
+                         and Wiggins both play but have
+                         one playing the PF and the other plyaing the SF, but they can 
+                         play interchangably). Looking at the chart, it 
+                         is evident that GSW put more emphasis on the PG and SF position with a higher salary.
+                    </p>
+                </div>
+            </div>
+    </div>
+</div>
+    
+   
+<br>
+<div>
+    <div id="q3">
+        <br>
+        <div id = "title" class="center_plot">
+        </div>
+        <div id="q3_plot" class="center_plot">
+        </div>
+        <div id="legend" class="center_plot"></div>
+        <p style="border: 3px solid gold; padding: 10px;"> 
+            NOTE: hover over colored states to see list of Champions
+            <br> <br>
+             In this map we can see some states are colored. The deeper the color,
+             the more champions the teams in that state won. 
+             <br> <br>
+             As presented in the map 
+             CA has the most champions from the seasons 2011 - 2022. When we hover over it
+             we can also see that the Warriors has won the champion 4 out of the 12 seasons! This shows an 
+             extreme success in the change of style for the Warriors as they focus more on players that play the 
+             point guard, shooting guard, or small forward. However, this doesn't guarantee that 
+             the small ball style will continually bring success to the Warriors because styles of basketball 
+             changes over time as players move around to different teams and new rookies enter the league.
+             That being said, the small ball style has brought success the the Warriors in the past decade, 
+             but there will be changed to the league in the soon future, so the small ball era might come to an end sometime soon.
+        </p>
+    </div>
+    <br>
+</div>    
+   
+
+
+<div id="sum">
+    <h2>Summary: </h2>
+    <p> After observing the three visualizations above, we can clearly see that adopting the small ball style 
+        has affected the GSW in terms of playing time for different positions, the salaries for different players
+        and their corresponding positions, and lastly, the success of this style of basketball (focusing on PG, SG, SF) has been proven by the nubmer of 
+        championships won by the GSW in the past couple of seasons. In conclusion, the GSW is one of the most significant teams
+        that adopted the small ball style successfully, and this has changed the league and the game of basketball as many young players 
+        starting from the youth level look up to these basketball stars and mimic their style of baseketball. That being said, 
+        the adoption of small ball style is a huge historical transition / era of basketball, 
+        and it has definintly created a huge impact in the game of basketball as well as marked a significant moment in the history 
+        of basketball!
+    </p>
+</div> 
+
+<br>
+
+<div id="cit">
+    <h2>Citation: </h2>
+    <p> Sources used: <a href="https://www.basketball-reference.com/">Click here to navigate to the data source</a> </p>
+    
+</div> 
+
+</body>  
+</html>  
